@@ -17,7 +17,7 @@ Welcome to LazE Menyooz the University Dining Dish Tracker! This project began a
 
 ## Introduction
 
-The University of Maryland Dining Dish Tracker is designed to help students keep track of their favorite meals. By simply entering the name of a dish, users can see when it will be served in the university's dining halls throughout the week.
+LazE Menyooz is designed to help students keep track of their favorite meals. By simply entering the name of a dish, users can see when it will be served in the university's dining halls throughout the week.
 
 ## Features
 
