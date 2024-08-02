@@ -46,9 +46,7 @@ export default function LazE() {
         }
 
       //console.log(foodItem)
-      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/${foodItem}`, {
-        referrerPolicy: "unsafe-url"
-      })
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/${foodItem}`)
       if (!res.ok) {
         //console.log(res)
         throw new Error("Network response was not ok!")
