@@ -22,7 +22,8 @@ class UmesService:
         # Init start/end of week
         # "start_date": "2024-06-30",
         # "end_date": "2024-07-06"
-        self.start_date = (datetime.now() - timedelta(days=datetime.now().weekday() + 1))
+        today = datetime.today()
+        self.start_date = (today - timedelta(days=today.weekday() + 1) if today.weekday() != 6 else today)
         self.end_date = (self.start_date + timedelta(days=6)).strftime("%Y-%m-%d")
         self.start_date = self.start_date.strftime("%Y-%m-%d")
 

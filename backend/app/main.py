@@ -28,7 +28,7 @@ async def get_food_item(food_item: str):
 @app.get("/api/v2/{food_item}")
 async def get_food_item(food_item: str):
     response = []
-    input_start_date = "2024-07-21"
+    input_start_date = "2024-08-04"
 
     # Define the aggregation pipeline
     pipeline = [
