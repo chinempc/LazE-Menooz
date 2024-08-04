@@ -7,7 +7,8 @@ Welcome to LazE Menyooz the University Dining Dish Tracker! This project began a
 * Towson University (Coming Soon...)
 * Bowie State University (Coming Soon...)
 
-[Live Demo of LazE Menyooz]()
+[Live Demo of LazE Menyooz](https://laze-menyooz.vercel.app)
+![alt text](laze.png "Preview")
 
 ## Table of Contents
 
